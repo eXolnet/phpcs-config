@@ -7,11 +7,11 @@ A collection of shareable configurations for various coding-style tools to make 
 
 ## Setup
 
-1. `composer require --dev exolnet/code-quality-tools`
+1. `composer require --dev exolnet/phpcs-config`
 2. Run the following command to run the standards checks:
 
 ```
-vendor/bin/phpcs --standard=vendor/exolnet/code-quality-tools .
+vendor/bin/phpcs --standard=vendor/exolnet/phpcs-config .
 ```
 
 You can add this to your Travis YAML file as a test:
@@ -19,7 +19,7 @@ You can add this to your Travis YAML file as a test:
 ```yaml
 script:
   - phpunit
-  - vendor/bin/phpcs --standard=vendor/exolnet/code-quality-tools .
+  - vendor/bin/phpcs --standard=vendor/exolnet/phpcs-config .
 ```
 
 ### Excluding Files
@@ -56,7 +56,7 @@ If you want to add further rules (such as laravel-specific rules), you can creat
     <file>tests</file>
     
     <!-- Use eXolnet Coding Standards -->
-    <rule ref="vendor/exolnet/code-quality-tools/ruleset.xml" />
+    <rule ref="vendor/exolnet/phpcs-config" />
     
     <!-- Add Laravel-specific rules -->
     <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
@@ -77,7 +77,7 @@ vendor/bin/phpcs --standard=ruleset.xml .
 You can also customise the rule to exclude elements if they aren't applicable to the project:
 
 ```xml
-<rule ref="vendor/exolnet/code-quality-tools/ruleset.xml">
+<rule ref="vendor/exolnet/phpcs-config">
 	<!-- Disable short array syntax -->
 	<exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace" />
 </rule>
