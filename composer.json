@@ -1,8 +1,8 @@
 {
-	"name": "exolnet/code-quality-tools",
-	"description": "The eXolnet code quality tool.",
+	"name": "exolnet/phpcs-config",
+	"description": "eXolnet configuration for PHP CodeSniffer.",
 	"license": "MIT",
-	"keywords": ["exolnet", "laravel", "psr", "phpcs", "eslint", "stylelint"],
+	"keywords": ["exolnet", "laravel", "psr", "phpcs"],
 	"authors": [
         {
             "name": "Simon Gaudreau",
