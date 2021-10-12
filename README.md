@@ -87,10 +87,6 @@ Rules can also be disabled inline. [phpcs rules can be disabled](https://github.
 
 To find out what these codes are, specify `-s` when running `phpcs`, and the code will be output as well. You can specify a full code, or a partial one to disable groups of errors.
 
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE OF CONDUCT](CODE_OF_CONDUCT.md) for details.
-
 ## Security
 
 If you discover any security related issues, please email security@exolnet.com instead of using the issue tracker.
