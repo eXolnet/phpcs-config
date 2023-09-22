@@ -1,7 +1,7 @@
 # eXolnet - PHPCS Ruleset
 
 [![Software License](https://img.shields.io/badge/license-MIT-8469ad.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/eXolnet/code-quality-tools/master.svg?style=flat-square)](https://travis-ci.org/eXolnet/code-quality-tools)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/eXolnet/code-quality-tools/ci.yml?label=tests&style=flat-square)](https://github.com/eXolnet/code-quality-tools/actions?query=workflow%3Aci)
 
 A collection of shareable configurations for various coding-style tools to make the configurations consistent across our projects.
 
